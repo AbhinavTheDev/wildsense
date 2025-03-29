@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Globe, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from "../components/ui/button";
 import { cn } from '../lib/utils.ts';
 import { GiTigerHead } from 'react-icons/gi';

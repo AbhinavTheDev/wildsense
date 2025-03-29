@@ -9,15 +9,6 @@ interface PredictionRequest {
   socialStructure: "Solitary" | "Group-based";
 }
 
-interface LifespanPredictionResponse {
-  predicted_lifespan: number;
-}
-
-interface ConservationStatusPredictionResponse {
-  predicted_conservation_status: number;
-  probability_endangered: number;
-}
-
 // Format data for lifespan prediction model
 function formatLifespanData(data: PredictionRequest) {
   return {

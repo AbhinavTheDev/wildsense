@@ -1,4 +1,4 @@
-import { Heart, Globe, Github } from 'lucide-react';
+import { Heart, Github } from 'lucide-react';
 import { GiTigerHead } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
 
