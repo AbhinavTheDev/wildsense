@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Bird, Earth, Globe, Leaf, PawPrint, Turtle, Fish, Shield } from 'lucide-react';
+import { Bird, Earth, Globe, Leaf, PawPrint, Fish, Shield } from 'lucide-react';
 import { GiTigerHead, GiDeer, GiMonkey } from "react-icons/gi";
 import { MdOutlineFamilyRestroom } from "react-icons/md";
 import { Button } from "../components/ui/button";
-import { cn } from '../lib/utils.ts';
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState<Record<string, boolean>>({
