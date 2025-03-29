@@ -91,24 +91,6 @@ const Index = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/40 to-transparent z-10"></div>
         </div>
-        
-        {/* Floating wildlife silhouettes */}
-        <div className="absolute inset-0 overflow-hidden z-10 pointer-events-none">
-          <motion.div 
-            className="absolute right-[10%] top-[15%]"
-            animate={{ y: [0, -15, 0] }}
-            transition={{ duration: 6, repeat: Infinity }}
-          >
-            <Bird className="text-nature-600/30 h-16 w-16" />
-          </motion.div>
-          <motion.div 
-            className="absolute left-[5%] bottom-[20%]"
-            animate={{ y: [0, 15, 0] }}
-            transition={{ duration: 7, repeat: Infinity }}
-          >
-            <Turtle className="text-nature-700/20 h-24 w-24" />
-          </motion.div>
-        </div>
 
         <div className="max-w-7xl mx-auto relative z-20">
           <motion.div
