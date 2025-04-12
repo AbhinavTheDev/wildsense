@@ -1,8 +1,9 @@
+<p align="center">
+  <img src="public/wildsense.webp" alt="WildSense Logo"/>
+</p>
+
 # WildSense: AI-Powered Wildlife Conservation Platform
 
-<p align="center">
-  <img src="public/logo.svg" alt="WildSense Logo" width="120" />
-</p>
 
 WildSense is a web application that leverages artificial intelligence to advance wildlife conservation efforts. The platform offers tools to predict animal lifespans and assess conservation status, empowering researchers and conservationists with data-driven insights.
 
